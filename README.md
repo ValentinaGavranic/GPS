@@ -1,14 +1,19 @@
-# GPS
+⚠️ Note: This project was developed as a student assignment, and the code may not follow current best practices.<br>
+🤝 Collaboration with Dajana Jerončić, Mihaela Gamulin <br>
+📅 Date: 2019 <br>
 
-Aplikacija sadrži plan grada Zagreba. U planu se nalaze čvorovi koji predstavljaju križanja, trgove ili
-značajna mjesta, te bridovi koji predstavljaju ulice (jednosmjerne ili dvosmjerne). U plan je moguće
-dodavati nove čvorove preko koordinata i nove linije tako da se unesu početni i završni čvor. Svaki
-čvor i linija mogu imati neke karakteristike kao što su: trgovina, restoran, kafić, pošta, ljekarna,
-garaža i benzinska postaja.
-Detalji o čvoru, odnosno bridu pamte se u bazi i, ukoliko korisnik to želi, mogu se prikazati. Kao
-osnovni dio, prilikom pretraživanja nekog objekta, prikazuje se lokacija na karti, a zatim se mogu
-dobiti detaljnije informacije o karakteristikama koje ta lokacija sadrži.
-Korisnik može nadalje pronaći najkraći put od lokacije A do lokacije B uz detaljne upute o duljini
-puta i nazivima ulica kojima mora proći. Također može pronaći put od te dvije lokacije tako da obavi
-neki posao, tj. svrati u jednu od karakteristika koju naznači. Na zahtjev korisnika na planu se mogu
-istaknuti sve ulice i čvorovi koji sadrže zadanu karakteristiku.
+## Student project for the course "Računarski praktikum 3" at PMF Zagreb, 2019.
+
+# 🗺 GPS
+
+This application contains a map of the city of Zagreb. The map consists of nodes representing intersections, squares, or important locations, and edges representing streets (either one-way or two-way).
+
+It is possible to add new nodes by specifying coordinates, as well as new edges by entering the starting and ending nodes. Each node and edge can have associated characteristics such as a shop, restaurant, café, post office, pharmacy, garage, or gas station.
+
+Details about each node and edge are stored in a database and can be displayed upon user request. As a basic feature, when searching for a specific location, its position is shown on the map, and additional detailed information about its characteristics can then be accessed.
+
+Users can also find the shortest path from location A to location B, including detailed instructions about the total distance and the street names along the route. Additionally, users can calculate a route between two locations that includes a stop at a selected point of interest (based on a specified characteristic).
+
+Upon request, the map can highlight all streets and nodes that contain a chosen characteristic.
+
+<img src="screenshot.png">
